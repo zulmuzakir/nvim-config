@@ -4,3 +4,6 @@
 
 -- Use Intelephense instead of Phpactor for PHP
 vim.g.lazyvim_php_lsp = "intelephense"
+
+-- Sync clipboard between system and Neovim
+vim.opt.clipboard = "unnamedplus"
