@@ -4,3 +4,4 @@
 
 -- Press jk quickly to escape insert mode
 vim.keymap.set("i", "jk", "<esc>", { desc = "Escape Insert Mode" })
+vim.keymap.set("i", "kj", "<esc>", { desc = "Escape Insert Mode" })
